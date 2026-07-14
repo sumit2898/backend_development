@@ -2,15 +2,18 @@
   "name": "megafullstack",
   "version": "1.0.0",
   "description": "this is backend driven full stack web",
+  "type": "commonjs",
   "keywords": [
     "backend",
     "end-toend"
   ],
   "license": "ISC",
   "author": "sumit",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
